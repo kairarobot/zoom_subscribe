@@ -6,4 +6,6 @@
 
 A landing page example for email subscriptions that is mobile responsive.
 
+#### [Open](http://kaira.one/zoom_subscribe)
+
 ![preview](https://github.com/kairaygun/zoom_subscribe/blob/master/images/preview.png)
