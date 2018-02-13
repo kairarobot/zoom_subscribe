@@ -1,0 +1,90 @@
+
+body {
+    background: url(images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #000;
+    color: #FFF;
+    height: 80px;
+    opacity: 0.8;
+}
+
+#title {
+    flex-grow: 1;
+
+    margin: 0 auto;
+    padding-left: 20px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+    padding-right: 10px;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 60vh;
+}
+
+main form {
+    margin: auto;
+}
+
+#emailForm {
+    color: #cacaca;
+    height: 40px;
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+#submitButton {
+    background-color: #fbf3ab;
+    border: none;
+    height: 60px;
+    width: 120px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 500px) {
+    #emailForm {
+    	display: block;
+        height: 40px;
+        width: 200px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #submitButton {
+    	display: block;
+        height: 60px;
+        width: 220px;
+    	margin: 10px;
+    	padding: 10px;
+    }
+}
